@@ -8,4 +8,8 @@ class Dog
   def self.all
     @@all
   end
+  
+  def print_all
+    @@all.each {|pooch| puts pooch}
+  end
 end
