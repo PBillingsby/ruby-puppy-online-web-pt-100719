@@ -9,7 +9,7 @@ class Dog
     @@all
   end
   
-  def print_all
-    self.each {|pooch| puts pooch}
+  def self.print_all
+    @@all.each {|pooch| puts pooch}
   end
 end
